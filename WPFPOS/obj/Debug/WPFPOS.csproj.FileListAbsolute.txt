@@ -1,0 +1,13 @@
+c:\users\bbdnet1783\documents\visual studio 2012\Projects\WPFPOS\WPFPOS\bin\Debug\WPFPOS.exe.config
+c:\users\bbdnet1783\documents\visual studio 2012\Projects\WPFPOS\WPFPOS\bin\Debug\WPFPOS.exe
+c:\users\bbdnet1783\documents\visual studio 2012\Projects\WPFPOS\WPFPOS\bin\Debug\WPFPOS.pdb
+c:\users\bbdnet1783\documents\visual studio 2012\Projects\WPFPOS\WPFPOS\obj\Debug\WPFPOS.csprojResolveAssemblyReference.cache
+c:\users\bbdnet1783\documents\visual studio 2012\Projects\WPFPOS\WPFPOS\obj\Debug\MainWindow.baml
+c:\users\bbdnet1783\documents\visual studio 2012\Projects\WPFPOS\WPFPOS\obj\Debug\MainWindow.g.cs
+c:\users\bbdnet1783\documents\visual studio 2012\Projects\WPFPOS\WPFPOS\obj\Debug\App.g.cs
+c:\users\bbdnet1783\documents\visual studio 2012\Projects\WPFPOS\WPFPOS\obj\Debug\WPFPOS_MarkupCompile.cache
+c:\users\bbdnet1783\documents\visual studio 2012\Projects\WPFPOS\WPFPOS\obj\Debug\WPFPOS.g.resources
+c:\users\bbdnet1783\documents\visual studio 2012\Projects\WPFPOS\WPFPOS\obj\Debug\WPFPOS.Properties.Resources.resources
+c:\users\bbdnet1783\documents\visual studio 2012\Projects\WPFPOS\WPFPOS\obj\Debug\WPFPOS.csproj.GenerateResource.Cache
+c:\users\bbdnet1783\documents\visual studio 2012\Projects\WPFPOS\WPFPOS\obj\Debug\WPFPOS.exe
+c:\users\bbdnet1783\documents\visual studio 2012\Projects\WPFPOS\WPFPOS\obj\Debug\WPFPOS.pdb

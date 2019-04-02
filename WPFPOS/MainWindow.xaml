@@ -1,0 +1,75 @@
+﻿<Window x:Class="WPFPOS.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="700" Width="400">
+ 
+    <Border Padding="10">
+        <StackPanel >
+            <Grid >
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Button Content="Products" Margin="0 0 10 0" Grid.Column="0"></Button>
+                <Button Content="Categories"  Margin="0 0 10 0" Grid.Column="1"></Button>
+                <Button Content="Suppliers"  Margin="0 0 10 0" Grid.Column="2"></Button>
+                <Button Content="Employees"  Margin="0 0 10 0" Grid.Column="3"></Button>
+            </Grid>
+
+            <TextBlock Text="List of Items" Margin="0 10" FontWeight="Bold"/>
+            <TextBlock Text="Name"  Margin="0 10"/>
+            <TextBox Padding="2" x:Name="Name"></TextBox>
+
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="2*"/>
+                    <ColumnDefinition Width="1*"/>
+                </Grid.ColumnDefinitions>
+
+
+                <StackPanel  Grid.Column="0"  Margin="0 0 10 0">
+                    <TextBlock Text="Status" Margin="0 10"/>
+                    <TextBox Padding="2"></TextBox>
+                </StackPanel>
+
+
+                <StackPanel Grid.Column="1">
+                    <TextBlock Text="Status Read Only" Margin="0 10"/>
+                    <TextBox Padding="2" IsEnabled="False"></TextBox>
+                </StackPanel>
+            </Grid>
+
+            <TextBlock Text="Drop Down" Margin="0 10"/>
+            <ComboBox Padding="2"></ComboBox>
+            
+            
+            <TextBlock Text="Sex" Margin="0 10"/>
+
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+
+                <StackPanel  Grid.Column="0"  Margin="0 0 10 0">
+                    <CheckBox Content="Male"></CheckBox>
+                </StackPanel>
+
+
+                <StackPanel Grid.Column="1">
+                    <CheckBox Content="Female"></CheckBox>
+
+                </StackPanel>
+            </Grid>
+            
+            <Button x:Name="Save" Click="Save_Click">Apply</Button>
+            
+        </StackPanel>
+        
+        
+    </Border>
+</Window>
